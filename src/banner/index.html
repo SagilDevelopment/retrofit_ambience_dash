@@ -1,0 +1,61 @@
+<p id="select-device-message">
+    Selecione um dispositivo
+</p>
+<div id="loader"></div>
+<div class="widget" id="widget">
+    <h1 id="device-name" class="device-name bold-weight"></h1>
+    <div class="container">
+        <div class="door_status_container">
+            <div class="image_container">
+                <img id="conservadora_img"
+                    src="https://raw.githubusercontent.com/SagilDevelopment/ubidots-assets/main/conservadora_fechada.svg"
+                    alt="Conservadora Sagil 37L Fechada">
+            </div>
+            <div class="infos">
+                <div class="infos_door">
+                    <div>
+                        <span>Porta</span>
+                        <span id="door-state" class="bold-weight">...</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="device_info">
+            <h2 class="title">Sensores</h2>
+            <div class="infos_mac regular-weight">
+                <div class="sensor-mac">
+                    <span class="sensor-mac-title">Principal: </span>
+                    <span id="main-mac"></span>
+                </div>
+                <div class="sensor-mac">
+                    <span class="sensor-mac-title">Auxiliar 1: </span>
+                    <span id="sec-1-mac"></span>
+                </div>
+                <div class="sensor-mac">
+                    <span class="sensor-mac-title">Auxiliar 2: </span>
+                    <span id="sec-2-mac"></span>
+                </div>
+                <div class="sensor-mac">
+                    <span class="sensor-mac-title">Porta: </span>
+                    <span id="door-1-mac"></span>
+                </div>
+                <div id="door-2-container" class="sensor-mac is-hide">
+                    <span class="sensor-mac-title">Porta 2: </span>
+                    <span id="door-2-mac"></span>
+                </div>
+                <div id="amb-1-container" class="sensor-mac is-hide">
+                    <span class="sensor-mac-title">Ambiente: </span>
+                    <span id="amb-1-mac"></span>
+                </div>
+                <div id="amb-2-container" class="sensor-mac is-hide">
+                    <span class="sensor-mac-title">Ambiente 2: </span>
+                    <span id="amb-2-mac"></span>
+                </div>
+                <div id="amb-3-container" class="sensor-mac is-hide">
+                    <span class="sensor-mac-title">Ambiente 3: </span>
+                    <span id="amb-3-mac"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
